@@ -30,7 +30,5 @@ Each model will operate independently, utilizing distinct data sets related to t
 
 Once each model provides its buy signal, the outputs will be aggregated using a novel voting system. This system allows for models with higher accuracy or reliability as it relates to past performance within the ensemble to have a greater influence on the final decision. A predefined threshold will be applied, and if the aggregate signal exceeds the threshold, the system will generate a buy recommendation. The threshold is adjustable and can be fine-tuned during testing to balance risk and reward.
 
-
-## Expected Outcomes ##
-
-lorem ipsum
+# Special Notes #
+Key components of this repo remain private to protect the ongoing development and research. 
