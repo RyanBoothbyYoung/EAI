@@ -3,7 +3,7 @@ a research-driven project designed to predict financial market movements using a
 
 # Introduction #
 
-In the ever-evolving landscape of financial markets, data-driven decision-making is becoming increasingly essential [source]. The integration of artificial intelligence (AI) into finance, particularly through the use of machine learning models, has shown significant potential in optimizing investment strategies [source]. However, the complexity of financial markets requires more than just individual models. An ensemble approach— leveraging multiple models to assess financial, economic, and sentiment data —may provide a more comprehensive and accurate view of market opportunities.
+In the ever-evolving landscape of financial markets, data-driven decision-making is becoming increasingly essential. The integration of artificial intelligence (AI) into finance, particularly through the use of machine learning models, has shown significant potential in optimizing investment strategies. However, the complexity of financial markets requires more than just individual models. An ensemble approach— leveraging multiple models to assess financial, economic, and sentiment data —may provide a more comprehensive and accurate view of market opportunities.
 
 This project aims to explore the design and development of a hybrid ensemble AI system for investment analysis. By combining technical, fundamental, economic, and sentiment-based models, the system seeks to generate reliable buy and sell signals only when a consensus is reached. The goal is to enhance accuracy and profitability in trading decisions by reducing noise and improving the reliability of predictions.
 
@@ -24,16 +24,12 @@ The primary focus of this project is on the AI-driven decision-making process ra
 - Time-efficient: Utilizing pre-built libraries reduces the time needed to develop a functioning backtesting system.
 - Project focus: Since the goal of this project is to experiment with and improve AI models, rather than creating a custom trading bot, these libraries allow us to dedicate more resources to the AI components.
 
-Each model within the ensemble will be designed using modern AI techniques (e.g., deep learning, reinforcement learning, or hybrid models) and will be trained to function independently. The performance of each model will be benchmarked against established financial indices such as the S&P 500 or NASDAQ 100, ensuring that each model performs at a level competitive with general market trends.
+Each model within the ensemble will be designed using modern AI techniques and will be trained to function independently. The performance of each model will be benchmarked against established financial indices such as the S&P 500 or NASDAQ 100, ensuring that each model performs at a level competitive with general market trends.
 
 Each model will operate independently, utilizing distinct data sets related to the target security, which will encompass technical, fundamental, and sentiment-based features. Each model will provide a prediction in the form of a buy signal. It is important to note that the system is not tasked with identifying sell signals; the goal is to identify optimal buy opportunities, with the assumption that sell strategies may be handled by other components or human decision-makers.
 
-Once each model provides its buy signal, the outputs will be aggregated using a weighted voting system. This system allows for models with higher accuracy or reliability to have a greater influence on the final decision. A predefined threshold will be applied, and if the aggregate signal exceeds the threshold, the system will generate a buy recommendation. The threshold is adjustable and can be fine-tuned during testing to balance risk and reward.
+Once each model provides its buy signal, the outputs will be aggregated using a novel voting system. This system allows for models with higher accuracy or reliability as it relates to past performance within the ensemble to have a greater influence on the final decision. A predefined threshold will be applied, and if the aggregate signal exceeds the threshold, the system will generate a buy recommendation. The threshold is adjustable and can be fine-tuned during testing to balance risk and reward.
 
-
-## Technologies ##
-
-lorem ipsum
 
 ## Expected Outcomes ##
 
